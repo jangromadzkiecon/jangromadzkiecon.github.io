@@ -20,23 +20,57 @@
       <p align="center">
         <h1>Jan Gromadzki</h1>
       </p>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <script src="js/init.js"></script>
+    <script language="javascript">
+      function toggle(num) {
+        var ele = document.getElementById("toggleText" + num);
+        var text = document.getElementById("displayText" + num);
+        if (ele.style.display == "block") {
+          ele.style.display = "none";
+          text.innerHTML = "Show abstract";
+        }
+        else {
+          ele.style.display = "block";
+          text.innerHTML = "Hide abstract";
+        }
+      } 
+    </script>      
       <p align="center">
         <img src="https://jangromadzkiecon.github.io/website_jangromadzki/Gromadzki_Jan_photo.jpg">
       </p>
-      <h2>Papers</h2>
-      <p>Here are my papers!</p>
+      I am a PhD student at Warsaw School of Economics and a researcher at Institute for Structural Research. My interests lie in labor economics, political economy, and economic history. <br> <br>
+      E-mail: jan.gromadzki[at]ibs.org.pl <br>
+
+
+      <h2>Working papers</h2>      
       <ul>
-        <li><em>Firms and wage inequality in Central and Eastern Europe</em>. (With Iga Magda and Simone Moriconi) <a href="papers/Magda_Gromadzki_Moriconi.pdf">link</a>.</li>
+        <li><strong>Firms and wage inequality in Central and Eastern Europe.</strong> - with Iga Magda (Warsaw School of Economics) and Simone Moriconi (IÉSEG) <a href="papers/Magda_Gromadzki_Moriconi.pdf">link</a>.</li>
+            <a class="toggle" id="displayText2" href="javascript:toggle(2);"> <em> Show abstract</em> </a> </p>
+            <div id="toggleText2" style="display: none" class="default">We use large linked employer-employee data to analyze wage inequality patterns in
+Central and Eastern European (CEE) countries between 2002 and 2014. We show that, unlike in many other advanced economies, wage inequality levels have decreased in almost all CEE countries. These reductions in wage inequality resulted from disproportionately large increases in wages at the bottom of the wage distribution, and from decreases in between-firm wage inequality. We further find that the declines in wage inequality were driven by large wage structure effects that compensated for changes in the composition of workers. </div>        
       </ul>      
-<!--       <ul>
-        <li><strong>JMP</strong> <em>The number of Quartic D4 fields ordered by conductor</em>. (With S.A. Altug, A. Shankar, and I. Varma.) <a href="./d4.pdf">link</a>.</li>
-        <li><em>Another awesome paper</em>. (With D, E, F.) <a href="https://link.com">link</a>.</li>
-      </ul> -->
-      <h2>Some other activity</h2>
-      <p>I do other things!</p>
-<!--       <ul>
-        <li><em>Op-Ed in some newspaper</em>. <a href="https://nyt.com">link</a>.</li>
-      </ul> -->
+      <ul>
+        <li><strong>The Added Worker Effect, Employment Contracts, and the Reasons for the Wife’s Inactivity.</strong> <a href="papers/Gromadzki_AWE_2019.pdf">link</a>.</li>
+            <a class="toggle" id="displayText3" href="javascript:toggle(3);"> <em> Show abstract</em> </a> </p>
+            <div id="toggleText3" style="display: none" class="default">The recent literature provide compelling evidence of the existence of a significant added worker effect (AWE) - wives increase their labour supply in response to the job displacement of their husbands. However, little is known about the heterogeneity of the effect. I study the variation in the AWE depending on the reasons for the wife’s inactivity, and on the husband’s employment contract type. I find that the responses of discouraged women to the job displacement of their husbands were three times as strong as the responses of those women, who were inactive for reasons of health and family. This finding suggests that discouraged people are highly responsive to the income shocks that occur within a household. In addition, I find that the size of the AWE also depends on the type of employment contract the husband had. The results suggest that high employment protection reduces the wife’s incentives to join the labour force after her husband’s job displacement.  </div> 
+      </ul>            
+
+      <h2>Work in progress</h2>
+      <ul>
+        <li><strong>Labor supply effects of a universal cash transfer.</strong></em> [draft available soon!]</li>
+            <a class="toggle" id="displayText3" href="javascript:toggle(3);"> <em> Show abstract</em> </a> </p>
+            <div id="toggleText3" style="display: none" class="default">The unconditional cash transfers in the form of a universal basic income, a universal basic pension or a universal child benefit are increasingly being discussed in many countries. In this article, I investigate the labor supply effects of the introduction of a large unconditional cash benefit. I exploit the unique design of the child benefit program in Poland to identify the pure income effect of the transfer. The labor supply responses, which can be attributed to the pure income effect, were statistically insignificant and negligible. Instead of extending their free time, households substantially increased their consumption.  </div>         
+      </ul>
+      <ul>
+        <li><strong>Inequalities and Ethnic Conflict.</strong> - with Paweł Bukowski (LSE) and Filip Novokmet (University of Bonn and Paris School of Economics)  </li>       
+      </ul>      
+      <ul>
+        <li><strong>#IamLGBT. Social networks and coming out in a homophobic country.</strong> - with Przemysław Siemaszko (Warsaw School of Economics)  </li>       
+      </ul>                      
     </article>
   </body>
 </html>
